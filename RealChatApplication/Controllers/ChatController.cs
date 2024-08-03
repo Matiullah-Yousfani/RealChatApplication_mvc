@@ -1,0 +1,12 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace RealChatApplication.Controllers
+{
+    public class ChatController : Controller
+    {
+        public IActionResult Chat()
+        {
+            return View();
+        }
+    }
+}
